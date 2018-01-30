@@ -17,8 +17,25 @@ main {
     max-width: 750px;
 }
 
-/*footer*/
+/* gradient background */
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background-image: linear-gradient(#dddddd, #dddddd, #dddddd, #dddddd, #DAC0BA 70%, #FF431C 95%);
+	background-size: 100% 100%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+  /* background-size:cover;
+  background-position:center center; */
+  background-attachment:fixed;
+}
 
+/*footer*/
+footer {
+  color: #fff;
+}
 .copyright {
     margin: 15px 0;
 }
@@ -92,10 +109,10 @@ a:hover {
     border-top: var(--border-width) solid var(--accent);
 }
 
-footer {
+/* footer {
     border-bottom: var(--border-width) solid var(--accent);
 }
-
+ */
 img {
     max-width: 100%;
 }

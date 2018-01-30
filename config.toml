@@ -1,16 +1,14 @@
 baseURL = "https://markus.atelierschork.com"
-disqusShortname = "username"
+#disqusShortname = "username"
 googleAnalytics = ""
 languageCode = "en-us"
 theme = "markus"
 title = "Hello World!"
 
 [params]
-accent = "grey"
 author = "Markus Schork"
-#backgroundcolor = "white"
 description = "Personal blog from Markus Schork"
-#font = "Raleway"
+font = "Open+Sans"
 githubusername = "mschork"
 highlight = true
 highlightlanguages = ["go", "haskell", "kotlin", "scala", "swift"]
