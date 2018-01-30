@@ -3,27 +3,44 @@ disqusShortname = "username"
 googleAnalytics = ""
 languageCode = "en-us"
 theme = "markus"
-title = "Markus Schorks website is getting ready"
-[[menu.icon]]
-name = "stack-overflow"
-url = "https://www.stackoverflow.com/username/"
-weight = 5
-[[menu.icon]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/username/"
-weight = 4
+title = "Hello World!"
+
+[params]
+accent = "grey"
+author = "Markus Schork"
+#backgroundcolor = "white"
+description = "Personal blog from Markus Schork"
+#font = "Raleway"
+githubusername = "mschork"
+highlight = true
+highlightlanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+#highlightstyle = "solarized-dark"
+#showborder = true
+
+
+#[[menu.icon]]
+#name = "stack-overflow"
+#url = "https://www.stackoverflow.com/username/"
+#weight = 5
+
+#[[menu.icon]]
+#name = "linkedin"
+#url = "https://www.linkedin.com/in/username/"
+#weight = 4
+
 [[menu.icon]]
 name = "twitter"
-url = "https://twitter.com/username/"
+url = "https://twitter.com/atelierschork/"
 weight = 3
-[[menu.icon]]
-name = "github"
-url = "https://github.com/username/"
-weight = 2
+#[[menu.icon]]
+#name = "github"
+#url = "https://github.com/username/"
+#weight = 2
 [[menu.icon]]
 name = "envelope-o"
 url = "mailto:me@example.com"
 weight = 1
+
 [[menu.main]]
 name = "Projects"
 url = "/project/"
@@ -36,14 +53,3 @@ weight = 2
 name = "Home"
 url = "/"
 weight = 1
-[params]
-accent = "red"
-author = "Markus Schork"
-backgroundcolor = "white"
-description = "Personal blog from Markus Schork"
-font = "Raleway"
-githubusername = "mschork"
-highlight = true
-highlightlanguages = ["go", "haskell", "kotlin", "scala", "swift"]
-highlightstyle = "solarized-dark"
-showborder = true
