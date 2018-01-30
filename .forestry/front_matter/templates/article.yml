@@ -1,0 +1,16 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Title for articles
+  config:
+    required: true
+- type: textarea
+  name: main_text
+  label: main text
+  description: Main article text
+  config:
+    wysiwyg: true
+    required: true
