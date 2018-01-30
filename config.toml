@@ -26,19 +26,6 @@ highlightlanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 #url = "https://www.linkedin.com/in/username/"
 #weight = 4
 
-[[menu.icon]]
-name = "twitter"
-url = "https://twitter.com/atelierschork/"
-weight = 3
-#[[menu.icon]]
-#name = "github"
-#url = "https://github.com/username/"
-#weight = 2
-[[menu.icon]]
-name = "envelope-o"
-url = "mailto:me@example.com"
-weight = 1
-
 [[menu.main]]
 name = "Projects"
 url = "/project/"
