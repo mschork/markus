@@ -1,4 +1,5 @@
-baseURL = "https://markus.atelierschork.com"
+#baseURL = "https://markus.atelierschork.com"
+baseURL = "https://practical-turing-5ecab9.netlify.com"
 #disqusShortname = "username"
 googleAnalytics = ""
 languageCode = "en-us"
@@ -10,10 +11,6 @@ author = "Markus Schork"
 description = "Personal blog from Markus Schork"
 font = "Open+Sans"
 githubusername = "mschork"
-highlight = true
-highlightlanguages = ["go", "haskell", "kotlin", "scala", "swift"]
-#highlightstyle = "solarized-dark"
-#showborder = true
 
 
 #[[menu.icon]]
