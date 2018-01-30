@@ -1,8 +1,8 @@
 baseURL = "https://markus.atelierschork.com"
 languageCode = "en-us"
 title = "Markus Schorks website is getting ready"
-theme = "markus"
-## theme = "ananke"
+## theme = "markus"
+theme = "ananke"
 
 
 # Main config file for icon theme.
