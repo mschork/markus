@@ -7,6 +7,7 @@ fields:
   description: Title for articles
   config:
     required: true
+  default: first article
 - type: textarea
   name: main_text
   label: main text
@@ -14,3 +15,4 @@ fields:
   config:
     wysiwyg: true
     required: true
+  default: This is the first article<br>
