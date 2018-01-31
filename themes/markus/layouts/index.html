@@ -1,17 +1,13 @@
 {{ partial "header" . }}
 
-<main>
-
-    <div class="intro">
-
+<div class="g-container">
+    <main class="main-content">
+        <h1>{{ .Site.Title }}</h1>
+        <h2>{{ markdownify .Site.Params.Description }}</h2>
         {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
 
-        <h1>{{ .Site.Title }}</h1>
-
-        <h2>{{ markdownify .Site.Params.Description }}</h2>
-
-    </div>
-
-</main>
+        <p class=""> Praesent feugiat risus eros, id maximus sapien scelerisque ut. Donec eget magna ut diam blandit semper ut a est. Maecenas purus neque, aliquam non posuere sed, eleifend iaculis nisi. Fusce placerat, quam sit amet vulputate venenatis, dui nisi finibus lectus, non imperdiet diam ligula eu neque. Integer sed egestas enim. Etiam eu ex at est eleifend convallis id eu ante. Etiam vitae nulla id diam volutpat efficitur vel sit amet arcu. Suspendisse bibendum posuere diam vel tincidunt. Nullam cursus porta ligula, sit amet volutpat justo bibendum et. Proin dolor leo, mollis sed justo eget, tempor consectetur purus. Integer suscipit, nibh eu lacinia elementum, nisl neque rhoncus lacus, finibus efficitur leo libero ut arcu. Nulla efficitur urna tincidunt euismod egestas. Pellentesque aliquam aliquet ante, nec efficitur est dignissim tempor.</p>
+    </main>
+</div>
 
 {{ partial "footer" . }}

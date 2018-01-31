@@ -9,7 +9,7 @@ title = "Hello World!"
 [params]
 author = "Markus Schork"
 description = "Personal blog from Markus Schork"
-font = "Open+Sans"
+font = "Open+Sans:300,400"
 githubusername = "mschork"
 
 
