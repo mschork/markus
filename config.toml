@@ -32,6 +32,6 @@ name = "Posts"
 url = "/post/"
 weight = 2
 [[menu.main]]
-name = "Home"
-url = "/"
+name = "Portoflio"
+url = "/portfolio/"
 weight = 1
