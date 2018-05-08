@@ -9,8 +9,8 @@ body {
   text-align: left;
   flex-direction: column;
   background-color: #ddd;
-  /* width: 100wh;
-	height: 90vh; */
+  width: 100wh;
+	height: 90vh;
 	background-image: linear-gradient(#dddddd, #dddddd 65%, #DAC0BA 70%, #FF431C 95%);
 	background-size: 100% 100%;
 	-webkit-animation: Gradient 15s ease infinite;
